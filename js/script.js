@@ -32,10 +32,14 @@ const loop = setInterval(() => {
 
        startGame.src = 'img/gameover.png'; // troca a imagem do start game para a imagem de game over
 
-       clearInterval(loop); // para o loop
+        clearInterval(loop); // para o loop
        
        document.addEventListener('keydown', () => {
         location.reload(); // recarrega a página
+ });
+
+document.addEventListener('click', () => {
+        location.reload(); // recarrega a página para mobile
     });
     
     }
@@ -44,3 +48,4 @@ const loop = setInterval(() => {
 
 // adiciona o evento de clique ao Steve
 document.addEventListener('keydown', jump); 
+document.addEventListener('click', jump); //Click para Mobile
