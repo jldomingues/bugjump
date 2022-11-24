@@ -116,9 +116,9 @@
 
 @media only screen and (orientation:portrait){
 .game-board {
-    width: 150%;
+    width: 180%;
     margin: 0 auto;
-    height: 80vh;
+    height: 52vh;
     border-bottom: 45px solid gray;
     position: relative;
     overflow: hidden;
