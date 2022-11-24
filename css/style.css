@@ -115,7 +115,15 @@
 #container { display:block; }
 
 @media only screen and (orientation:portrait){
-
+.game-board {
+    width: 150%;
+    margin: 0 auto;
+    height: 80vh;
+    border-bottom: 45px solid gray;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#020024, #1f1365);
+}
   #container {
 
    height: 100vw;
